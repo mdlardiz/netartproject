@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<!-- saved from url=(0132)file:///Users/michaellardizabal/Desktop/Interactive%20and%20Electronic%20Media%20I/Final%20Project%20/Bulliten%20/bulliten_v006.html -->
+<html><head>
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body  {="" background="backgroundimage.jpg" }=""> 
+
+    <video controls autoplay name='media'> 
+   
+
+        <source src="file:///Users/michaellardizabal/Desktop/Interactive%20and%20Electronic%20Media%20I/Final%20Project%20/P1140125.mp4" type="video/mp4">
+      </video>
+
+      <style>
+        video{
+            position: sticky; size: 100%;
+            width: 500px;
+            height: auto;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          z-index: 100;
+  }
+        
+    </style>
+
+    <div id="Image1" width="464" height="156" style="top: 656px; left: 500px;">
+      <div id="Image1_2"><img src="Evolve.jpg">
+        <style>
+            img{ 
+                max-width: 100%;
+                height: auto;
+            }
+        </style>
+        
+      </div>
+    </div>
+
+     <script>
+    //Make the DIV element draggagle:
+    dragElement(document.getElementById("Image1"));
+    
+    function dragElement(elmnt) {
+      var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+      if (document.getElementById(elmnt.id + "_2")) {
+        /* if present, the header is where you move the DIV from:*/
+        document.getElementById(elmnt.id + "_2").onmousedown = dragMouseDown;
+      } else {
+        /* otherwise, move the DIV from anywhere inside the DIV:*/
+        elmnt.onmousedown = dragMouseDown;
+      }
+    
+      function dragMouseDown(e) {
+        e = e || window.event;
+        e.preventDefault();
+        // get the mouse cursor position at startup:
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        document.onmouseup = closeDragElement;
+        // call a function whenever the cursor moves:
+        document.onmousemove = elementDrag;
+      }
+    
+      function elementDrag(e) {
+        e = e || window.event;
+        e.preventDefault();
+        // calculate the new cursor position:
+        pos1 = pos3 - e.clientX;
+        pos2 = pos4 - e.clientY;
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        // set the element's new position:
+        elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+      }
+    
+      function closeDragElement() {
+        /* stop moving when mouse button is released:*/
+        document.onmouseup = null;
+        document.onmousemove = null;
+      }
+    }
+    </script>
+
+<div id="Image2" style="top: 350px; left: 193px;">
+    <div id="Image2_3"><img src="69716.jpg"></a></div>
+  </div>
+
+<script>
+//Make the DIV element draggagle:
+dragElement(document.getElementById("Image2"));
+    
+    function dragElement(elmnt) {
+      var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+      if (document.getElementById(elmnt.id + "_3")) {
+        /* if present, the header is where you move the DIV from:*/
+        document.getElementById(elmnt.id + "_3").onmousedown = dragMouseDown;
+      } else {
+        /* otherwise, move the DIV from anywhere inside the DIV:*/
+        elmnt.onmousedown = dragMouseDown;
+      }
+    
+      function dragMouseDown(e) {
+        e = e || window.event;
+        e.preventDefault();
+        // get the mouse cursor position at startup:
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        document.onmouseup = closeDragElement;
+        // call a function whenever the cursor moves:
+        document.onmousemove = elementDrag;
+      }
+    
+      function elementDrag(e) {
+        e = e || window.event;
+        e.preventDefault();
+        // calculate the new cursor position:
+        pos1 = pos3 - e.clientX;
+        pos2 = pos4 - e.clientY;
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        // set the element's new position:
+        elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+      }
+    
+      function closeDragElement() {
+        /* stop moving when mouse button is released:*/
+        document.onmouseup = null;
+        document.onmousemove = null;
+      }
+    }
+
+</script>
+    
+<div id="Image3" style="top: 17px; left: 148px;">
+    <div id="Image3_4"><img src="b29.jpg"></div>
+  </div>
+
+<script>
+//Make the DIV element draggagle:
+dragElement(document.getElementById("Image3"));
+    
+    function dragElement(elmnt) {
+      var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+      if (document.getElementById(elmnt.id + "_4")) {
+        /* if present, the header is where you move the DIV from:*/
+        document.getElementById(elmnt.id + "_4").onmousedown = dragMouseDown;
+      } else {
+        /* otherwise, move the DIV from anywhere inside the DIV:*/
+        elmnt.onmousedown = dragMouseDown;
+      }
+    
+      function dragMouseDown(e) {
+        e = e || window.event;
+        e.preventDefault();
+        // get the mouse cursor position at startup:
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        document.onmouseup = closeDragElement;
+        // call a function whenever the cursor moves:
+        document.onmousemove = elementDrag;
+      }
+    
+      function elementDrag(e) {
+        e = e || window.event;
+        e.preventDefault();
+        // calculate the new cursor position:
+        pos1 = pos3 - e.clientX;
+        pos2 = pos4 - e.clientY;
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        // set the element's new position:
+        elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+      }
+    
+      function closeDragElement() {
+        /* stop moving when mouse button is released:*/
+        document.onmouseup = null;
+        document.onmousemove = null;
+      }
+    }
+
+</script>
+
+<div id="Image4" style="top: 64px; left: 784px;">
+    <div id="Image4_5"><img src="cover3.jpg"></div>
+  </div>
+
+<script>
+//Make the DIV element draggagle:
+dragElement(document.getElementById("Image4"));
+    
+    function dragElement(elmnt) {
+      var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+      if (document.getElementById(elmnt.id + "_5")) {
+        /* if present, the header is where you move the DIV from:*/
+        document.getElementById(elmnt.id + "_5").onmousedown = dragMouseDown;
+      } else {
+        /* otherwise, move the DIV from anywhere inside the DIV:*/
+        elmnt.onmousedown = dragMouseDown;
+      }
+    
+      function dragMouseDown(e) {
+        e = e || window.event;
+        e.preventDefault();
+        // get the mouse cursor position at startup:
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        document.onmouseup = closeDragElement;
+        // call a function whenever the cursor moves:
+        document.onmousemove = elementDrag;
+      }
+    
+      function elementDrag(e) {
+        e = e || window.event;
+        e.preventDefault();
+        // calculate the new cursor position:
+        pos1 = pos3 - e.clientX;
+        pos2 = pos4 - e.clientY;
+        pos3 = e.clientX;
+        pos4 = e.clientY;
+        // set the element's new position:
+        elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+      }
+    
+      function closeDragElement() {
+        /* stop moving when mouse button is released:*/
+        document.onmouseup = null;
+        document.onmousemove = null;
+      }
+    }
+
+</script>
+
+
+<div id="Image6" style="top: 449px; left: 1077px;">
+  <div id="Image6_7"><img src="gumball.jpg" width="295.5" height="265.5"/></div>
+</div>
+
+<script>
+//Make the DIV element draggagle:
+dragElement(document.getElementById("Image6"));
+  
+  function dragElement(elmnt) {
+    var pos1 = 100, pos2 = 0, pos3 = 0, pos4 = 0;
+    if (document.getElementById(elmnt.id + "_7")) {
+      /* if present, the header is where you move the DIV from:*/
+      document.getElementById(elmnt.id + "_7").onmousedown = dragMouseDown;
+    } else {
+      /* otherwise, move the DIV from anywhere inside the DIV:*/
+      elmnt.onmousedown = dragMouseDown;
+    }
+  
+    function dragMouseDown(e) {
+      e = e || window.event;
+      e.preventDefault();
+      // get the mouse cursor position at startup:
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      document.onmouseup = closeDragElement;
+      // call a function whenever the cursor moves:
+      document.onmousemove = elementDrag;
+    }
+  
+    function elementDrag(e) {
+      e = e || window.event;
+      e.preventDefault();
+      // calculate the new cursor position:
+      pos1 = pos3 - e.clientX;
+      pos2 = pos4 - e.clientY;
+      pos3 = e.clientX;
+      pos4 = e.clientY;
+      // set the element's new position:
+      elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+      elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    }
+  
+    function closeDragElement() {
+      /* stop moving when mouse button is released:*/
+      document.onmouseup = null;
+      document.onmousemove = null;
+    }
+  }
+
+</script>
+
+
+<div class="container2" style="top: 420px; left: 238px;">
+
+    </br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+  
+  <button class="btn2" style="top: 420px; left: 238px;"><a href="file:///Users/michaellardizabal/Desktop/Interactive%20and%20Electronic%20Media%20I/Final%20Project%20/Page2_Error/bulliten_button_page2error_v001.html" target="_blank"><img src="InterElecMedia_ErrorButton_Page1.png" alt="Snow2" style="width: 200%" class= "center" style="top: 420px; left: 238px;"></a></button>
+</div>
+
+
+
+<div class="container" style="top: 656px; left: 500px;">
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+  
+  <button class="btn" style="top: 656px; left: 500px;"><img src="InterElecMedia_NextButton_Page1.png" alt="Snow" style="width: 200%" class= "center" style="top: 537px; left: 173px;"></button>
+</div>
+
+
+
+   
+<style>
+
+
+.container img {
+  width: 25%;
+  height: auto;
+  z-index: 0;
+}
+
+.container .btn {
+  position: absolute;
+  background-color: red;
+  color: white;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 0;
+}
+
+.container .btn:hover {
+  background-color: lightgreen;
+  z-index: 0;
+}
+
+
+.container2 img {
+  width: 25%;
+  height: auto;
+  z-index: 0;
+}
+
+.container2 .btn2 {
+  position: absolute;
+  background-color: black;
+  color: white;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 0%;
+  text-align: center;
+  z-index: 0;
+}
+
+.container2 .btn2:hover {
+  background-color: red;
+  z-index: 0;
+}
+
+
+
+#Image1 {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  
+  
+}
+
+#Image1_2 {
+  padding: 0px;
+  cursor: move;
+  z-index: 10;
+  background-image: "Evolve.jpg";
+  color: #fff;
+}
+
+#Image2 {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+
+  
+}
+
+#Image2_3 {
+  padding: 0px;
+  cursor: move;
+  z-index: 10;
+  background-image: "69716.jpg";
+  color: #fff;
+}
+
+
+#Image3 {
+  position: absolute;
+  z-index: 2;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#Image3_4 {
+  padding: 0px;
+  cursor: move;
+  z-index: 2;
+  background-image: "b29.jpg";
+  color: #fff;
+}
+
+
+#Image4 {
+  position: absolute;
+  z-index: 2;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#Image4_5 {
+  padding: 0px;
+  cursor: move;
+  z-index: 2;
+  background-image: "cover.jpg"; 
+  color: #fff;
+}
+
+
+#Image6 {
+  position: absolute;
+  z-index: 2;
+}
+
+
+#Image6_7 {
+    padding: 0px;
+    cursor: move;
+    z-index: 2;
+    background-image: "cover.jpg"; 
+    color: #fff;
+
+
+</style>
+
+
+
+</body>
+
+</html>
